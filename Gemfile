@@ -49,6 +49,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'bootstrap-sass', '3.3.7'
+  gem 'sassc'
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
